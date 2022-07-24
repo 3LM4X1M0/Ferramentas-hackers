@@ -1,0 +1,1 @@
+WPScan - Ferramenta que identifica versão e falhas de plugin do WordPress.

@@ -1,0 +1,15 @@
+wpscan --url http://example.com --force. =  Opção para forçar o WPScan a fazer a varredura do site de qualquer maneira. Quando o site ofusca suas informações do WordPress. usar somente quando tem certeza que é um WP
+
+wpscan --url http://example.com --api-token TOKEN.  
+
+wpscan --url http://cmnatics.playground/ --enumerate t  = enumerar temas
+
+wpscan --url http://cmnatics.playground/ --enumerate p  = enumerar plugins
+
+wpscan --url http://cmnatics.playground/ --enumerate u  = enumerar usuarios força bruta
+
+wpscan --url http://cmnatics.playground/ --enumerate vp = fala da falhas no plugins
+
+wpscan --url http://cmnatics.playground --passwords rockyou.txt --usernames cmnatic = ataque de senha, lembre-se te ter a wordlist e especificar o caminho da onde esta a wordlist ou estar no diretorio da wordlist.
+
+--plugins-detection aggressive/passive = controlar a agressividade do wpscan
