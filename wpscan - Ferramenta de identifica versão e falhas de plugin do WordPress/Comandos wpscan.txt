@@ -1,4 +1,4 @@
-wpscan --url http://example.com --force. =  Opção para forçar o WPScan a fazer a varredura do site de qualquer maneira. Quando o site ofusca suas informações do WordPress. usar somente quando tem certeza que é um WP
+wpscan --url http://example.com --force =  Opção para forçar o WPScan a fazer a varredura do site de qualquer maneira. Quando o site ofusca suas informações do WordPress. usar somente quando tem certeza que é um WP
 
 wpscan --url http://example.com --api-token TOKEN.  
 
